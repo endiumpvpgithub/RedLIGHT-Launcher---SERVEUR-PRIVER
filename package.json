@@ -1,7 +1,7 @@
 {
     "name": "Redlight-Launcher",
     "preductname": "Redlight Launcher",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "description": "Launcher Redlight",
     "main": "src/app.js",
     "author": "Luuxis et HUGOBERLO",
