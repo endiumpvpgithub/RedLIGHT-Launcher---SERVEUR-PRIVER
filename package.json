@@ -1,11 +1,11 @@
 {
     "name": "Redlight-Launcher",
     "preductname": "Redlight Launcher",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "description": "Launcher Redlight",
     "main": "src/app.js",
     "author": "Luuxis et HUGOBERLO",
-    "url": "https://rddep.000webhostapp.com/",
+    "url": "http://redminecraftserv.rf.gd/",
     "engines": {
         "node": "^18.x.x"
     },
