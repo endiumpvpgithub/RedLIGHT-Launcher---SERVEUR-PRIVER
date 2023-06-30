@@ -1,11 +1,11 @@
 {
     "name": "Redlight-Launcher",
     "preductname": "Redlight Launcher",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Launcher Redlight",
     "main": "src/app.js",
     "author": "Luuxis et HUGOBERLO",
-    "url": "http://redlight.freeboxos.fr/",
+    "url": "https://redminecraftserv.rf.gd/",
     "engines": {
         "node": "^18.x.x"
     },
