@@ -1,13 +1,4 @@
 <div class="container">
-    <div class="login-home login-tabs">
-        <div class="login-text">Veuillez vous identifier afin de jouer.</div>
-
-        <div class="login-options">
-            <button class="connect connect-home">Connexion</button>
-            <button class="cancel cancel-home" style="display: none;">Annuler</button>
-        </div>
-    </div>
-
     <!-- Section pour les comptes "crackés" -->
     <div class="login-offline login-tabs">
         <div class="login-text">Vous pouvez jouer avec un compte "cracké" (pseudo uniquement).</div>
@@ -27,40 +18,19 @@
         <div class="login-text">Connectez-vous avec votre compte Microsoft.</div>
 
         <div class="input-login">
-            <input type="text" class="email email-microsoft" placeholder="Adresse e-mail Microsoft" />
-            <input type="password" class="password password-microsoft" placeholder="Mot de passe Microsoft" />
+            <button class="connect-msft" onclick="redirectMicrosoftAuth()">Connexion avec Microsoft</button>
         </div>
 
         <div class="login-options">
-            <button class="connect connect-microsoft">Connexion</button>
             <button class="cancel cancel-microsoft" style="display: none;">Annuler</button>
         </div>
     </div>
-
-    <div class="login-AZauth login-tabs">
-        <div class="login-text">Ou utilisez une autre méthode de connexion.</div>
-
-        <div class="input-login">
-            <input type="text" class="email email-AZauth" placeholder="E-mail" />
-            <input type="password" class="password password-AZauth" placeholder="Password" />
-        </div>
-
-        <div class="login-options">
-            <button class="connect connect-AZauth">Connexion</button>
-            <button class="cancel cancel-AZauth" style="display: none;">Annuler</button>
-        </div>
-    </div>
-
-    <div class="login-AZauth-A2F login-tabs">
-        <div class="login-text">Veuillez entrer le code de sécurité.</div>
-
-        <div class="input-login">
-            <input type="text" class="A2F A2F-AZauth" placeholder="Code" />
-        </div>
-
-        <div class="login-options">
-            <button class="connect connect-AZauth-A2F">Valider</button>
-            <button class="cancel cancel-AZauth-A2F">Annuler</button>
-        </div>
-    </div>
 </div>
+
+<script>
+    function redirectMicrosoftAuth() {
+        // Redirection vers la page d'authentification de Microsoft
+        // Remplacez 'https://login.microsoft.com' par l'URL réelle d'authentification de Microsoft
+        window.location.href = 'https://login.microsoft.com';
+    }
+</script>
