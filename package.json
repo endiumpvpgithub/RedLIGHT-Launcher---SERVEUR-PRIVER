@@ -1,11 +1,11 @@
 {
     "name": "Redlight-Launcher",
     "preductname": "Redlight Launcher",
-    "version": "6.5.4",
+    "version": "6.5.5",
     "description": "Launcher Redlight",
     "main": "src/app.js",
     "author": "Luuxis et HUGOBERLO",
-    "url": "http://axdss.atwebpages.com/",
+    "url": "https://serveur01launcher.web.boxtoplay.com/",
     "engines": {
         "node": "^18.x.x"
     },
