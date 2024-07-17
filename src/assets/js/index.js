@@ -30,9 +30,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Oh tu m'avais manqué...", "author": "Hugo" },
-            { "message": "On y va ?", "author": "Hugo" },
-            { "message": "C'est partie !", "author": "Hugo" }
+            { "message": "Pandou n'est jamais loin...", "author": "Tom" },
+            { "message": "Mon petit Pandou", "author": "Tom" },
+            { "message": "Je cherche des bambou !", "author": "Pandou" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
@@ -51,14 +51,14 @@ class Splash {
     }
 
     async checkUpdate() {
-        this.setStatus(`Recherche de mise à jour...`);
+        this.setStatus(`Recherche des bébés Pandou...`);
 
         ipcRenderer.invoke('update-app').then().catch(err => {
             return this.shutdown(`erreur lors de la recherche de mise à jour :<br>${err.message}`);
         });
 
         ipcRenderer.on('updateAvailable', () => {
-            this.setStatus(`Mise à jour disponible !`);
+            this.setStatus(`Un nouveau Pandou !`);
             if (os.platform() == 'win32') {
                 this.toggleProgress();
                 ipcRenderer.send('start-update');

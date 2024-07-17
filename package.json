@@ -1,10 +1,10 @@
 {
     "name": "Redlight-Launcher",
     "preductname": "Redlight Launcher",
-    "version": "7.0.0",
+    "version": "8.0.0",
     "description": "Launcher Redlight",
     "main": "src/app.js",
-    "author": "Luuxis et HUGOBERLO",
+    "author": "Pandou",
     "url": "https://serveur01launcher.web.boxtoplay.com/",
     "engines": {
         "node": "^18.x.x"
